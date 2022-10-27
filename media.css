@@ -1,0 +1,423 @@
+/*FIRST MEDIA QUERY FOR THE LANDING PAGE  */
+@media (width < 1025px) {
+    .fgc{ 
+        font-size: 58px;
+        letter-spacing:2px;
+        line-height: 8vh; 
+       
+    }
+    .zone-name{
+        font-size: 23px;
+        letter-spacing: 2px;
+        margin-bottom: 60px;
+        padding-left: 70px;
+    }
+    .slogan_box h1{
+        font-size: 53px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        line-height: 8vh;
+        /* padding-bottom: 160px; */
+    }
+}
+
+
+/*SECOND MEDIA QUERY FOR THE LANDING PAGE  */
+@media (width < 790px) {
+    .landing-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        z-index: 20;
+        color: white; 
+        margin-top: 20px;     
+    }
+
+    .fgc{ 
+        font-size: 50px;
+        letter-spacing:2px;
+        line-height: 6vh;
+        padding-left: 10px; 
+    }
+
+    .zone-name{
+        font-size: 27px;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+    }
+    
+    .slogan_box h1{
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        line-height: 6vh;
+    }
+
+    .js_date{
+        font-size: 50px;
+    }
+    
+}
+
+
+/*THIRD MEDIA QUERY FOR THE LANDING PAGE  */
+@media (width < 430px) {
+    .landing-page{
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        color: white;  
+    }
+    .carousel-inner{
+        height: 30vh;
+        width: 100%;  
+    }    
+    .fgc{ 
+        font-size: 28px;
+        letter-spacing:3px;
+        line-height: 6vh;
+        padding-left: 12px; 
+    }
+
+    .zone-name{
+       display: none;
+    }
+
+    .hebrews{
+        display: none;
+    }
+    .heb{
+        display: none;
+    }
+    .alternate-zonename{
+        display: flex;
+        font-family: fantasy;
+        text-align: center;
+        background-image: url(./images/waterdrops.jpg);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        animation: filling 3s ease infinite; 
+    }
+
+    .slogan_box h1{
+        font-size: 22px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        line-height: 3vh;
+    }
+    .theme_box{
+        height: 300px;        
+    }
+    
+
+    .theme{
+        width: 85%;
+        height: 280px;
+    }
+
+    .js_date{
+        font-size: 35px;
+        width: 100%;
+        letter-spacing: 3px; 
+    }
+
+    .follow-us{
+        display: none;
+    }
+
+    .address{
+        display:none;
+       
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    footer{
+        margin-left: 18px;
+    }
+
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer2 a{
+        color: white;
+        text-decoration: none;
+        padding: 3px;
+    }
+
+    .footer2 a:hover{
+        color: orange;
+    }
+
+    .copyright2 .tags{
+        text-shadow:2px 2px 3px black;
+        animation:bayo 2s ease 1s infinite;  
+     }
+     
+     @keyframes bayo{
+     
+        0%{
+           transform:rotateX(-45deg);
+       }
+        50%{
+           transform:rotateY(45deg);
+       }
+     }
+     
+    
+
+}
+
+
+
+/* FIRST MEDIA QUERY FOR SEND US A MESSAGE AND MAP ie THE CONTACT US SECTION */
+@media (width< 1250px) {
+.Location-WriteUs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 3px;
+}
+
+.lets_talk{
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    height: 65vh;
+    background-color: black;  
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+
+}
+.message_me{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+form input{
+    width: 300px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+textarea{
+    width: 300px;
+    height: 20vh;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+}
+
+}
+
+/* SECOND MEDIA QUERY FOR SEND US A MESSAGE AND MAP  */
+@media (width < 750px){
+    .Location-WriteUs{
+        display: grid;
+        width: 100%;
+    }
+    .map iframe{
+        width: 600px;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+
+    .lets_talk{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 65vh;
+        background-color: black;  
+        border-radius: 6px;
+       
+    }
+    .message_me{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    form input{
+        width: 600px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    textarea{
+        width: 600px;
+        height: 23vh;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+    
+    }
+    
+    .submit{
+        display: flex;
+        align-items: center;
+        width: 600px;
+        height: 25px;
+        font-size: 15px;
+    }
+    
+    
+
+}
+
+
+/* THIRD MEDIA QUERY FOR SEND US A MESSAGE AND MAP  */
+@media (width< 450px){
+    .Location-WriteUs{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .map iframe{
+        width: 90%;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+
+    .lets_talk{
+        display: grid;
+        justify-content: center;
+        width: 90%;
+        height: 65vh;
+        background-color: black;  
+        border-radius: 6px;
+        margin-left: 45px;
+       
+    }
+    .message_me{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .lets_talk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+        height: 70vh;
+        background-color: black; 
+        border-radius: 3px;
+        /* margin-left: 120px; */
+    
+    }
+    
+    /* form input{
+        width: 450px;
+        height: 25px;
+        border-radius: 3px;
+        border: none;
+        font-size: 11px;
+        padding-left: 5px;
+    } */
+    form input{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 330px;
+        height: 18px;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        padding-left: 15px;
+     
+    }
+    /* textarea{
+        width: 450px;
+        height: 21vh;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+    
+    } */
+    textarea{
+        width: 330px;
+        height: 21vh;
+        border-radius: 3px;
+        font-size: 12px;
+        padding-left: 5px;
+    
+    }
+    
+    /* .submit{
+        display: flex;
+        align-items: center;
+        width: 450px;
+        height: 25px;
+        font-size: 13px;
+    } */
+    .submit{
+        display: flex;
+        align-items: center;
+        width: 330px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+}
+
+
+/* MEDIA QUERY FOR THE FOOTER BEGINS HERE  */
+@media (width < 900px){
+footer{
+    display:flex;
+    background-color: #454545;  
+    width: 100%;
+    height: 40vh;
+    color: white;
+    justify-content: space-around;
+    place-items: center;
+    font-size:14px;
+    /* line-height: 10px; */
+   
+    }
+
+.quick-links{
+        display: none;     
+    }
+
+.address a{
+        color: white;
+        text-decoration: none;
+        /* line-height: 12px; */
+       
+    }
+    
+}
