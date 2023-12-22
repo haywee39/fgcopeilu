@@ -1,21 +1,21 @@
 /*FIRST MEDIA QUERY FOR THE LANDING PAGE  */
-@media (width < 1050px) {
+@media (width < 1100px) {
     .fgc{ 
-        font-size: 58px;
+        font-size: 55px;
         letter-spacing:2px;
         line-height: 8vh;        
     }
     .zone-name{
-        font-size: 23px;
+        font-size: 20px;
         letter-spacing: 2px;
-        margin-bottom: 60px;
-        padding-left: 70px;
+        margin-bottom: 55px;
+        padding-left: 60px;
     }
     .slogan_box h1{
-        font-size: 53px;
+        font-size: 45px;
         font-weight: bolder;
         letter-spacing: 2px;
-        line-height: 8vh;
+        line-height: 6vh;
     }
 }
 
@@ -40,22 +40,22 @@
     }
 
     .zone-name{
-        font-size: 27px;
+        font-size: 25px;
         letter-spacing: 1px;
         margin-bottom: 60px;
-        padding-bottom: 50px;
-        padding-right: 20px;
+        padding-bottom: 45px;
+        padding-right: 18px;
     }
     
     .slogan_box h1{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bolder;
         letter-spacing: 2px;
-        line-height: 6vh;
+        line-height:5vh;
     }
 
     .js_date{
-        font-size: 15px;
+        font-size: 20px;
     }
     
 }
@@ -73,14 +73,14 @@
         color: white;  
     }
     .carousel-inner{
-        height: 40vh;
+        height: 50vh;
         width: 100%;  
     }    
     .fgc{ 
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing:3px;
         line-height: 5vh;
-        padding-left: 12px; 
+        padding-left: 10px; 
     }
 
     .zone-name{
@@ -194,7 +194,7 @@
 @media (width < 1100px) {
 
     .js_date{
-        color: orange;
+        color: white;
         font-size: 15px;
         /* letter-spacing: 3px; */
         text-shadow: black 1px 1px 1px;
