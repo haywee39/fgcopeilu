@@ -210,7 +210,7 @@
         border-radius: 40px;
     }
     
-    .live-stream{
+    #live-stream{
         margin-top: 4%;
         background: blue;
         width: 60%;
@@ -280,15 +280,17 @@
         text-align: center;
     }
     .pastor-desk img{
-        width: 80px;
-        height: 80px;
-        border-radius: 40px;
+        width: 75px;
+        height: 75px;
+        border-radius: 35px;
+        margin-right:1rem;
+        margin-left:6px;
     }
-    .pastor-desk h4{
+    .pastor-desk h1{
+        font-size: 17px;
+    }
+    .pastor-desk h3{
         font-size: 15px;
-    }
-    .pastor-desk h5{
-        font-size: 12px;
     }
     .live-stream{
         margin-top: 4%;
