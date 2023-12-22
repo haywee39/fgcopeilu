@@ -1,5 +1,5 @@
 /*FIRST MEDIA QUERY FOR THE LANDING PAGE  */
-@media (width < 1100px) {
+/* @media (width < 1100px) {
     .fgc{ 
         font-size: 55px;
         letter-spacing:2px;
@@ -17,11 +17,11 @@
         letter-spacing: 2px;
         line-height: 6vh;
     }
-}
+} */
 
 
 /*SECOND MEDIA QUERY FOR THE LANDING PAGE  */
-@media (width < 790px) {
+/* @media (width < 790px) {
     .landing-page{
         display: flex;
         flex-direction: column;
@@ -58,11 +58,11 @@
         font-size: 20px;
     }
     
-}
+} */
 
 
 /*THIRD MEDIA QUERY FOR THE LANDING PAGE  */
-@media (width < 430px) {
+/* @media (width < 430px) {
     .landing-page{
         display: flex;
         flex-direction: column;
@@ -109,33 +109,25 @@
 
     .slogan_box h1{
         font-size: 16px;
-        /* font-weight: bolder; */
         letter-spacing: 1px;
         line-height: 3vh;
     }
 
     .js_date{
-        /* display: none; */
         font-size:15px;
-
 
     }
     .theme_box{
         height: 300px;        
     }
     
-
     .theme{
         width: 85%;
         height: 280px;
     }
 
-    .js_date{
-        font-size: 35px;
-        width: 100%;
-        letter-spacing: 3px; 
-    }
-
+    
+ */
     .follow-us{
         display: none;
     }
@@ -188,7 +180,7 @@
      
     
 
-}
+/* } */
 
 /*FIRST MEDIA QUERY FOR THE  CHURCH MEDIA ACTVITIES */
 @media (width < 1100px) {
