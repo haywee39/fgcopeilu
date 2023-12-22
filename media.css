@@ -184,11 +184,29 @@
 
 /*FIRST MEDIA QUERY FOR THE  CHURCH MEDIA ACTVITIES */
 @media (width < 1100px) {
+    .zone-name{
+        display: none;
+     }
+ 
+     .hebrews{
+         display: none;
+     }
+     .heb{
+         display: none;
+     }
+     .alternate-zonename{
+         display: flex;
+         font-family: monospace;
+         text-align: center;
+         background-image: url(./images/waterdrops.jpg);
+         -webkit-text-fill-color:transparent;
+         -webkit-background-clip: text;
+         animation: filling 3s ease infinite; 
+     }
 
     .js_date{
         color: white;
         font-size: 15px;
-        /* letter-spacing: 3px; */
         text-shadow: red 1px 1px 1px;
     }
 
