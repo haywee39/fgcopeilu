@@ -128,7 +128,7 @@
 
     
  */
-    .follow-us{
+    /* .follow-us{
         display: none;
     }
 
@@ -177,21 +177,25 @@
            transform:rotateY(45deg);
        }
      }
-     
+      */
     
 
 /* } */
 
 /*FIRST MEDIA QUERY FOR THE  CHURCH MEDIA ACTVITIES */
-@media (width < 768px) {
+@media (width < 768px) and (orientation: portrait) {
 
     .carousel-inner{
-        height: 50vh;
+        height: 60vh;
         width: 100%;  
     }
+    .container{
+        display: grid;
+       
+    }
     .church_name_box{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        
     }    
     .fgc{ 
         font-size: 18px;
@@ -224,14 +228,13 @@
      }
 
     .js_date{
-        color: blue;
+        color: white;
         font-size: 15px;
         text-shadow: red 1px 1px 1px;
     }
 
     #themes{
-        display: flex;
-        flex-direction: row;
+        display: grid;
     }
     .overalldrop{
         display: flex;
@@ -365,7 +368,7 @@
 
 
 /* SECOND MEDIA QUERY FOR SEND US A MESSAGE AND MAP ie THE CONTACT US SECTION */
-@media (width< 1250px) {
+/* @media (width< 1250px) {
 .Location-WriteUs{
     display: flex;
     justify-content: space-around;
@@ -387,8 +390,6 @@
     height: 65vh;
     background-color: black;  
     border-radius: 5px;
-    /* margin-bottom: 20px; */
-
 }
 .message_me{
     font-size: 20px;
@@ -419,10 +420,10 @@ textarea{
     font-size: 13px;
 }
 
-}
+} */
 
 /* SECOND MEDIA QUERY FOR SEND US A MESSAGE AND MAP  */
-@media (width < 750px){
+@media (width < 768px){
     .Location-WriteUs{
         display: grid;
         width: 100%;
