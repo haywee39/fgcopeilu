@@ -184,6 +184,17 @@
 
 /*FIRST MEDIA QUERY FOR THE  CHURCH MEDIA ACTVITIES */
 @media (width < 500px) {
+
+    .carousel-inner{
+        height: 50vh;
+        width: 100%;  
+    }    
+    .fgc{ 
+        font-size: 23px;
+        letter-spacing:3px;
+        line-height: 5vh;
+        padding-left: 10px; 
+    }
     .zone-name{
         display: none;
      }
