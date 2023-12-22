@@ -188,12 +188,20 @@
     .carousel-inner{
         height: 50vh;
         width: 100%;  
+    }
+    .church_name_box{
+        display: flex;
+        flex-direction: row;
     }    
     .fgc{ 
         font-size: 17px;
         letter-spacing:3px;
         line-height: 5vh;
         padding-left: 10px; 
+    }
+    .slogan_box{
+        display: flex;
+        flex-direction:row ;
     }
     .zone-name{
         display: none;
