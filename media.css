@@ -189,7 +189,12 @@
         color: white;
         font-size: 15px;
         /* letter-spacing: 3px; */
-        text-shadow: black 1px 1px 1px;
+        text-shadow: red 1px 1px 1px;
+    }
+
+    #themes{
+        display: flex;
+        flex-direction: row;
     }
     .overalldrop{
         display: flex;
