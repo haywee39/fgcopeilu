@@ -183,7 +183,7 @@
 /* } */
 
 /*FIRST MEDIA QUERY FOR THE  CHURCH MEDIA ACTVITIES */
-@media (width < 500px) {
+@media (width < 768px) {
 
     .carousel-inner{
         height: 50vh;
