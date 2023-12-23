@@ -1,6 +1,6 @@
 @media (width < 768px) {
   .carousel-inner{
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
