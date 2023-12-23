@@ -1,16 +1,53 @@
-/* Your existing CSS styles */
-
-/* Media query for screens smaller than 768px */
-@media only screen and (max-width: 768px) {
-    /* Adjustments for smaller screens go here */
-    .landing-page {
-      font-size: 14px; /* Example adjustment */
-    }
-  
-    .theme-year {
-      width: 100%; /* Adjust as needed for responsiveness */
-    }
-  
-    /* Add more adjustments as needed */
+@media (width < 768px) {
+  .carousel-inner{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+  .landing-page{
+    width: 100%;
+    height: 100%;
+  }
+  .container{
+    display: block;
+    flex-direction: row;
+    margin: 30px;
+  }
+  .church_name_box .fgc{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px ; 
+  }
+  .fgc{
+    line-height: 30px;
+    letter-spacing: 2px;
+  }
+  .zone-name{
+    display: none;
+  }
+  .slogan_box{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .slogan_box h4{ 
+    font-size: 25px ;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+  .alternate-zonename{
+    display: visible;
+  }
+  .alternate-zonename h3{
+    display: visible;
+
+  }
+  .heb{
+    display: none;
+  }
+  .activities{
+    display: none;
+  }
+}
