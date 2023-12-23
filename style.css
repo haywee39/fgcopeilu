@@ -149,7 +149,9 @@
 /*MAIN STYLING FOR LANDING PAGE ENDS HERE */
 
 .alternate-zonename{
-    display: none;
+    display: flex;
+    visibility: hidden;
+    color: red;
 }
 /* Styling for the marquee Heb 13:8 start*/
 .heb{

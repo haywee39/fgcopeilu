@@ -1,6 +1,6 @@
 @media (width < 768px) {
   .carousel-inner{
-    height: 90vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,7 +26,8 @@
   }
   /* .church_name_box zone */
   .zone-name{
-    font-size: 20px;
+    display: none;
+    /* font-size: 20px; */
   }
   .slogan_box{
     display: flex;
@@ -42,11 +43,16 @@
     display: visible;
   }
   .alternate-zonename h3{
-    display: visible;
+    display: flex;
+    visibility: visible;
+    color: blue;
 
   }
   .heb{
-    display: none;
+    display: visible;
+  }
+  .hebrews{
+    font-size: 18px;
   }
   .activities{
     display: visible;
@@ -81,7 +87,7 @@
 .theme-month{
   width: 80%;
   height: 300px;
-  font-size: 85px;
+  font-size: 35px;
   font-weight: bold;
   word-spacing: 20px;
 }
@@ -90,6 +96,8 @@
 }
 .theme-month marquee{
   font-size: 12px;
+  height: 80px;
+  width: 100px;
 }
 /* END THE THEME FOR THE YEAR */
 
