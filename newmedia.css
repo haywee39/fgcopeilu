@@ -1,6 +1,6 @@
 @media (width < 768px) {
   .carousel-inner{
-    height: 35vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,8 +24,9 @@
     line-height: 30px;
     letter-spacing: 2px;
   }
+  /* .church_name_box zone */
   .zone-name{
-    display: none;
+    font-size: 20px;
   }
   .slogan_box{
     display: flex;
@@ -48,6 +49,48 @@
     display: none;
   }
   .activities{
-    display: none;
+    display: visible;
   }
+  .js_date{
+    font-size: 18px;
+  }
+
+  /*START THE THEME FOR THE YEAR  */
+  #themes{
+    display: block;
+    /* flex-direction: row; */
+    background-color: grey;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.theme-year{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 300px;   
+}
+
+.theme-year img{
+  position: relative;
+  width: 80%;
+  height: 300px;
+}
+.theme-month{
+  width: 80%;
+  height: 300px;
+  font-size: 85px;
+  font-weight: bold;
+  word-spacing: 20px;
+}
+.theme-month h2{
+  font-size: 12px;
+}
+.theme-month marquee{
+  font-size: 12px;
+}
+/* END THE THEME FOR THE YEAR */
+
 }
