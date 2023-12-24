@@ -25,10 +25,10 @@
   .church_name_box .fgc{
     display: flex;
     flex-direction: column;
-    font-size: 55px ; 
+    font-size: 35px ; 
   }
   .fgc{
-    line-height: 70px;
+    line-height: 40px;
     letter-spacing: 2px;
   }
   /* .church_name_box zone */
@@ -43,8 +43,8 @@
     margin-left: none;
   }
   .slogan_box h4{ 
-    font-size: 35px ;
-    line-height: 45px;
+    font-size: 25px ;
+    line-height: 25px;
     letter-spacing: 2px;
   }
   .alternate-zonename{
@@ -93,14 +93,17 @@
   height: 100%;
 }
 .theme-month{
-  width: 80%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   height: 300px;
-  font-size: 25px;
-  font-weight: bold;
-  word-spacing: 15px;
+}
+.theme-month{
+  font-size:35px
 }
 .theme-month h2{
-  font-size: 10px;
+  font-size: 15px;
 }
 .theme-month marquee{
   font-size: 12px;
