@@ -3,11 +3,11 @@
     /* width: 100%; */
   /* } */
   .carousel-inner{
-    height: 90vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items:stretch;
+    align-items: center;
   }
   .landing-page{
     width: 100%;
@@ -17,7 +17,7 @@
   }
   .container{
     display: grid;
-    justify-content: space-between;
+    justify-content:center;
     align-items:center;
     height: 100%;
     width: 80%;
