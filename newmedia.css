@@ -1,7 +1,7 @@
 @media (width < 768px) {
-  nav{
-    width: 100%;
-  }
+  /* nav{ */
+    /* width: 100%; */
+  /* } */
   .carousel-inner{
     height: 90vh;
     width: 100%;
@@ -77,7 +77,7 @@
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .theme-year{
   display:flex;
@@ -94,21 +94,25 @@
 }
 .theme-month{
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   height: 300px;
+  margin: 0 auto;
 }
-.theme-month{
-  font-size:35px
+.theme-month h1{
+  font-size:45px;
+  letter-spacing:3px;
 }
 .theme-month h2{
-  font-size: 15px;
+  font-size: 25px;
 }
 .theme-month marquee{
-  font-size: 12px;
-  height: 80px;
-  width: 100px;
+  font-size: 17px;
+  text-align: center;
+  height: 150px;
+  width: 90%;
 }
 /* END THE THEME FOR THE YEAR */
 
@@ -117,7 +121,7 @@
 /* MEDIA BEGINS FROM HERE */
 #media{
   width: 100vw;
-  height: 150vh;
+  height: 250vh;
 }
 #overalldrop{
   display: flex;
@@ -129,27 +133,48 @@
 }
 #pastor-desk{
   width: 100%;
+  height: 100vh;
+}
+#pastor-desk h1{
+  margin-top: auto;
 }
 #pastor-desk img{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
     margin-left:1rem;
     shape-outside:circle();
     float: left;
     margin-right:2rem;
 }
-#pastor-desk strong{
-  text-align: center;
+#pastor-desk .msg{
+  font-size: 17px;
 }
 #weekActs{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     width: 100%;
-    height: 60%;
+    height: 30%;
+}
+
+#weekActs h1{ 
+    font-size: 30px;
+}
+
+#weekActs h3{
+    font-size: 25px;
+}
+#weekActs h5{
+    font-size: 22px;
+   
+}
+#weekActs p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
 }
 #live-stream{
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
 
@@ -247,8 +272,11 @@
 
 
 /* FOOTER BEGINS HERE  */
+footer{
+  display: none;
+}
 .footer2{
-  display:visible;
+  display:none;
 }
 .quick-links{
   display: none;
