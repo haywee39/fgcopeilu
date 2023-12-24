@@ -41,22 +41,13 @@
     font-size: 40px;
     line-height: 35px;
   }
-  .heb{
+  .hebrews{
     display: none;
   }
   .alternate-zonename {
     display: flex;
     visibility: visible;
 
-  }
-  .heb{
-    display: visible;
-  }
-  .hebrews{
-    font-size: 18px;
-  }
-  .activities{
-    display: visible;
   }
   .js_date{
     font-size: 18px;
