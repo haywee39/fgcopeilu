@@ -12,6 +12,9 @@
 
 
 /* THE NAVBAR STYLING STARTS HERE  */
+nav{
+    width: 100vw;
+}
 
  .navbar{
     color: white;
@@ -46,7 +49,7 @@
  
 /*MAIN STYLING FOR LANDING PAGE */
 .carousel-inner{
-    height: 90vh;
+    height: 100vh;
     width: 100vw;  
 }
 

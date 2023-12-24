@@ -1,42 +1,50 @@
 @media (width < 768px) {
+  nav{
+    width: 100%;
+  }
   .carousel-inner{
-    height: 30vh;
+    height: 90vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:stretch;
   }
   .landing-page{
     width: 100%;
     height: 100%;
+    justify-content:center;
+    align-items:center;
   }
   .container{
-    display: block;
-    flex-direction: row;
-    margin: 30px;
+    display: grid;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+    width: 80%;
   }
   .church_name_box .fgc{
     display: flex;
     flex-direction: column;
-    font-size: 30px ; 
+    font-size: 55px ; 
   }
   .fgc{
-    line-height: 30px;
+    line-height: 70px;
     letter-spacing: 2px;
   }
   /* .church_name_box zone */
   .zone-name{
     display: none;
+    margin-top: none;
     /* font-size: 20px; */
   }
   .slogan_box{
     display: flex;
-    flex-direction: column;
-    margin: 0;
+    /* flex-direction: column; */
+    margin-left: none;
   }
   .slogan_box h4{ 
-    font-size: 25px ;
-    line-height: 20px;
+    font-size: 35px ;
+    line-height: 45px;
     letter-spacing: 2px;
   }
   .alternate-zonename{
@@ -67,7 +75,7 @@
     /* flex-direction: row; */
     background-color: grey;
     width: 100%;
-    height: 700px;
+    height: 100%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -75,24 +83,24 @@
   display:flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 300px;   
 }
 
 .theme-year img{
   position: relative;
   width: 80%;
-  height: 300px;
+  height: 100%;
 }
 .theme-month{
   width: 80%;
   height: 300px;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
-  word-spacing: 20px;
+  word-spacing: 15px;
 }
 .theme-month h2{
-  font-size: 12px;
+  font-size: 10px;
 }
 .theme-month marquee{
   font-size: 12px;
@@ -128,6 +136,9 @@
     float: left;
     margin-right:2rem;
 }
+#pastor-desk strong{
+  text-align: center;
+}
 #weekActs{
     margin-top: 10%;
     width: 100%;
@@ -135,7 +146,7 @@
 }
 #live-stream{
     width: 100%;
-    /* height: 50%; */
+    height: 50%;
 }
 
 
