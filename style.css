@@ -154,11 +154,24 @@ nav{
 .alternate-zonename{
     display: flex;
     visibility: hidden;
-    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    background-image: url(./images/waterdrops.jpg);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation: opeilu 3s ease infinite;
+}
+@keyframes opeilu{
+from{
+    background-position: bottom 50%;
+}
+to{
+    background-position: center 100%;
+}
 }
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
-    background-color: grey;
+    /* background-color: grey; */
     font-family: monospace;
 }
 .hebrews{
@@ -278,7 +291,7 @@ nav{
    
 } */
 #pastor-desk .msg{
-    margin: 20px;
+    margin: 22px;
     font-weight: normal;
     font-size: 12px;
     display: -webkit-box;
@@ -319,23 +332,23 @@ nav{
     font-family: monospace;
 }
 #weekActs h1{ 
-    font-size: 40px;
+    font-size: 50px;
     color: black;
-    text-shadow: red 2px 2px 2px;  
+    text-shadow: red 1px 1px 1px;  
 }
 
 #weekActs h3{
     font-family: 'Splash', cursive;
-    text-shadow: red 2px 2px 2px;
+    text-shadow: red 1px 1px 1px;
     font-size: 40px;
 }
 #weekActs h5{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
 }
 #weekActs p{
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bolder;
     text-align: center;
 }

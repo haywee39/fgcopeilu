@@ -1,9 +1,7 @@
 @media (width < 768px) {
-  /* nav{ */
-    /* width: 100%; */
-  /* } */
+
   .carousel-inner{
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,44 +14,39 @@
     align-items:center;
   }
   .container{
-    display: grid;
+    display: flex;
     justify-content:center;
     align-items:center;
     height: 100%;
-    width: 80%;
+    width: 100%;
   }
   .church_name_box .fgc{
     display: flex;
     flex-direction: column;
-    font-size: 35px ; 
+    font-size: 55px ; 
   }
   .fgc{
-    line-height: 40px;
+    line-height: 60px;
     letter-spacing: 2px;
   }
-  /* .church_name_box zone */
   .zone-name{
     display: none;
-    margin-top: none;
-    /* font-size: 20px; */
   }
   .slogan_box{
     display: flex;
-    /* flex-direction: column; */
-    margin-left: none;
+    flex-direction: column;
+    margin-left: 0;
   }
   .slogan_box h4{ 
-    font-size: 25px ;
-    line-height: 25px;
-    letter-spacing: 2px;
+    font-size: 40px;
+    line-height: 35px;
   }
-  .alternate-zonename{
-    display: visible;
+  .heb{
+    display: none;
   }
-  .alternate-zonename h3{
+  .alternate-zonename {
     display: flex;
     visibility: visible;
-    color: blue;
 
   }
   .heb{
@@ -157,18 +150,18 @@
 }
 
 #weekActs h1{ 
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #weekActs h3{
-    font-size: 25px;
+    font-size: 35px;
 }
 #weekActs h5{
-    font-size: 22px;
+    font-size: 30px;
    
 }
 #weekActs p{
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bolder;
     text-align: center;
 }
