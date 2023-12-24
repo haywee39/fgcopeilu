@@ -101,4 +101,146 @@
 }
 /* END THE THEME FOR THE YEAR */
 
+
+
+/* MEDIA BEGINS FROM HERE */
+#media{
+  width: 100vw;
+  height: 150vh;
+}
+#overalldrop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#pastor-desk{
+  width: 100%;
+}
+#pastor-desk img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left:1rem;
+    shape-outside:circle();
+    float: left;
+    margin-right:2rem;
+}
+#weekActs{
+    margin-top: 10%;
+    width: 100%;
+    height: 60%;
+}
+#live-stream{
+    width: 100%;
+    /* height: 50%; */
+}
+
+
+
+
+
+
+
+
+
+
+/* LOCATION AND MAP  */
+#contact-us{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+    }
+.Location-WriteUs{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+    }
+    
+    .map iframe{
+        width: 90%;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+
+    .lets_talk{
+        display: grid;
+        justify-content: center;
+        width: 90%;
+        height: 65vh;
+        background-color: black;  
+        border-radius: 6px;
+        margin-left: 45px;
+       
+    }
+    .message_me{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .lets_talk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+        height: 70vh;
+        background-color: black; 
+        border-radius: 3px;
+        
+    }
+    
+    
+    form input{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 330px;
+        height: 18px;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        padding-left: 15px;
+     
+    }
+    
+    textarea{
+        width: 330px;
+        height: 21vh;
+        border-radius: 3px;
+        font-size: 12px;
+        padding-left: 5px;
+    
+    }
+    
+    
+    .submit{
+        display: flex;
+        align-items: center;
+        width: 330px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+
+
+
+/* FOOTER BEGINS HERE  */
+.footer2{
+  display:visible;
+}
+.quick-links{
+  display: none;
+}
+
+
+    
+
 }

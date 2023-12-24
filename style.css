@@ -384,7 +384,16 @@
 
 
 
+
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
+#contact-us{
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .Location-WriteUs{
     margin-top: 25px;
@@ -392,6 +401,8 @@
     display: flex;
     justify-content: space-around;
     margin-right: 40px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .map{
@@ -473,7 +484,7 @@ textarea{
 footer{
     display:flex;
     background-color: #454545;  
-    width: 100%;
+    width: 100vw;
     height: 30vh;
     color: white;
     justify-content: space-around;
