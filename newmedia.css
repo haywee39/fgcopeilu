@@ -1,8 +1,8 @@
 @media (width < 768px) {
 
   .carousel-inner{
-    height: 50vh;
-    width: 100%;
+    /* height: 50vh; */
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content:center;
     align-items:center;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
   }
   .church_name_box .fgc{
@@ -90,10 +90,10 @@
   letter-spacing:3px;
 }
 .theme-month h2{
-  font-size: 25px;
+  font-size: 20px;
 }
 .theme-month marquee{
-  font-size: 17px;
+  font-size: 12px;
   text-align: center;
   height: 150px;
   width: 90%;
@@ -105,7 +105,7 @@
 /* MEDIA BEGINS FROM HERE */
 #media{
   width: 100vw;
-  height: 250vh;
+  height: 230vh;
 }
 #overalldrop{
   display: flex;
@@ -117,14 +117,16 @@
 }
 #pastor-desk{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
 }
 #pastor-desk h1{
   margin-top: auto;
 }
 #pastor-desk img{
-    width: 120px;
-    height: 120px;
+    width: 70px;
+    height: 70px;
     border-radius: 60px;
     margin-left:1rem;
     shape-outside:circle();
@@ -132,27 +134,27 @@
     margin-right:2rem;
 }
 #pastor-desk .msg{
-  font-size: 17px;
+  font-size: 13px;
 }
 #weekActs{
     /* margin-top: 10%; */
     width: 100%;
-    height: 30%;
+    height: 75vh;
 }
 
 #weekActs h1{ 
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #weekActs h3{
-    font-size: 35px;
+    font-size: 15px;
 }
 #weekActs h5{
-    font-size: 30px;
+    font-size: 12px;
    
 }
 #weekActs p{
-    font-size: 23px;
+    font-size:10px;
     font-weight: bolder;
     text-align: center;
 }
