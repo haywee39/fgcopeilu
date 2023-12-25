@@ -53,8 +53,8 @@ nav{
     height: 100vh;
 }
 .carousel-inner{
-    height: 100vh;
-    width: 100vw;  
+    /* height: 100vh; */
+    /* width: 100vw;   */
 }
 
 .landing-page{
@@ -176,24 +176,24 @@ to{
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
     background-color: grey;
     font-family: monospace;
 }
 .hebrews{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     text-shadow: red 2px 2px 2px;
 }
 
-.activities{
+/* .activities{
     background-color: grey; 
     width: 100vw;
-}
+} */
 .js_date{
     font-family: monospace;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: lowercase;
     width: 100vw;

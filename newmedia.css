@@ -3,9 +3,9 @@
   .carousel-inner{
     /* height: 50vh; */
     /* width: 100%; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
   }
   .landing-page{
     width: 100%;
