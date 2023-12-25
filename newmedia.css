@@ -23,7 +23,7 @@
   .church_name_box .fgc{
     display: flex;
     flex-direction: column;
-    font-size: 35px ; 
+    font-size: 30px ; 
   }
   .fgc{
     line-height: 45px;
@@ -38,7 +38,7 @@
     margin-left: 0;
   }
   .slogan_box h4{ 
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
   }
   .hebrews{
@@ -105,7 +105,7 @@
 /* MEDIA BEGINS FROM HERE */
 #media{
   width: 100vw;
-  height: 200vh;
+  height: 175vh;
 }
 #overalldrop{
   display: flex;
@@ -137,9 +137,9 @@
   font-size: 12px;
 }
 #weekActs{
-    /* margin-top: 10%; */
+    padding-top: 10%;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
 }
 
 #weekActs h1{ 
@@ -160,7 +160,7 @@
 }
 #live-stream{
     width: 100%;
-    height: 30%;
+    height: 15vh;
 }
 
 
@@ -178,7 +178,16 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 90%;
+        height: 100%;
+        background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+        
+      );
+     
     }
 .Location-WriteUs{
         align-items: center;
@@ -189,7 +198,7 @@
     }
     
     .map iframe{
-        width: 90%;
+        width: 100%;
         height: 130px;
         margin-bottom: 20px;
     }
@@ -199,8 +208,8 @@
         justify-content: center;
         width: 90%;
         height: 65vh;
-        background-color: black;  
-        border-radius: 6px;
+        /* background-color: black;   */
+        /* border-radius: 6px; */
         margin-left: 45px;
        
     }
@@ -209,17 +218,26 @@
         letter-spacing: 2px;
     }
 
-    .lets_talk{
-        display: flex;
+    /* .lets_talk{ */
+        /* display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 340px;
-        height: 70vh;
-        background-color: black; 
-        border-radius: 3px;
+        width: 100%;
+        height: 70vh; */
+        /* background-color: black;  */
+        /* border-radius: 3px; */
+        /* background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
         
-    }
+      ); */
+     
+        
+    /* } */
     
     
     form input{

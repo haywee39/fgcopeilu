@@ -4,6 +4,7 @@
     box-sizing:border-box; 
     list-style: none; 
     font-family: monospace;
+    
  }
 
  html{
@@ -179,6 +180,14 @@ to{
     height: 12vh;
     background-color: grey;
     font-family: monospace;
+    /* background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+        
+      ); */
 }
 .hebrews{
     font-size: 40px;
@@ -212,6 +221,14 @@ to{
     height: 700px;
     align-items: center;
     justify-content: space-evenly;
+    /* background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+        
+      ); */
 
 }
 
@@ -297,9 +314,9 @@ to{
     margin: 22px;
     font-weight: normal;
     font-size: 13px;
-    display: -webkit-box;
-    -webkit-line-clamp: 19;
-    -webkit-box-orient: vertical;
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 19; */
+    /* -webkit-box-orient: vertical; */
     /* overflow: hidden; */
     
 }
@@ -313,13 +330,46 @@ to{
     margin-right:3rem;
 }
 
+/* #weekActs{
+    font-family:monospace;
+    width:40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center; 
+    background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+        
+      );
+      
+} */
 
-#weekActs{
+#live-stream{
     margin-top: 10%;
     width: 30%;
     height: 100%;
+    
+}
+
+#weekActs{
+    width: 40%;
+    height: 100%;
     text-align: center;
     font-family: monospace;
+    background: linear-gradient(
+        55deg,
+        rgba(214, 191, 14),
+        rgba(14, 74, 214, 0.5),
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+        
+      );
+      
 }
 #weekActs h1{ 
     font-size: 45px;
@@ -347,19 +397,6 @@ to{
     color: black;
 }
 
-#live-stream{
-    width: 40%;
-    height: 100%;
-    background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-        
-      );
-     
-}
 
     
 #gallery{
