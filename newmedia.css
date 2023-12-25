@@ -23,10 +23,10 @@
   .church_name_box .fgc{
     display: flex;
     flex-direction: column;
-    font-size: 55px ; 
+    font-size: 35px ; 
   }
   .fgc{
-    line-height: 60px;
+    line-height: 45px;
     letter-spacing: 2px;
   }
   .zone-name{
@@ -38,14 +38,14 @@
     margin-left: 0;
   }
   .slogan_box h4{ 
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 30px;
   }
   .hebrews{
     display: none;
   }
   .alternate-zonename {
-    display: flex;
+    /* display: flex; */
     visibility: visible;
 
   }
@@ -105,7 +105,7 @@
 /* MEDIA BEGINS FROM HERE */
 #media{
   width: 100vw;
-  height: 230vh;
+  height: 200vh;
 }
 #overalldrop{
   display: flex;
@@ -118,28 +118,28 @@
 #pastor-desk{
   width: 100%;
   height: 110vh;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 #pastor-desk h1{
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 #pastor-desk img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 60px;
-    margin-left:1rem;
+    margin-left:.5rem;
     shape-outside:circle();
     float: left;
-    margin-right:2rem;
+    margin-right:1.5rem;
 }
 #pastor-desk .msg{
-  font-size: 13px;
+  font-size: 12px;
 }
 #weekActs{
     /* margin-top: 10%; */
     width: 100%;
-    height: 75vh;
+    height: 60vh;
 }
 
 #weekActs h1{ 
