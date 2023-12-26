@@ -3,9 +3,7 @@
   .carousel-inner{
     height: 100%;
     width: 100%;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    
   }
   .landing-page{
     width: 100%;
@@ -17,7 +15,6 @@
     display: flex;
     justify-content:center;
     align-items:center;
-    /* height: 100%; */
     width: 100%;
   }
   .church_name_box .fgc{
@@ -45,7 +42,6 @@
     display: none;
   }
   .alternate-zonename {
-    /* display: flex; */
     visibility: visible;
 
   }
@@ -56,7 +52,6 @@
   /*START THE THEME FOR THE YEAR  */
   #themes{
     display: block;
-    /* flex-direction: row; */
     background-color: grey;
     width: 100%;
     height: 100%;
@@ -164,14 +159,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 /* LOCATION AND MAP  */
 #contact-us{
         align-items: center;
@@ -199,8 +186,6 @@
         justify-content: center;
         width: 90%;
         height: 65vh;
-        /* background-color: black;   */
-        /* border-radius: 6px; */
         margin-left: 45px;
        
     }
@@ -213,7 +198,6 @@
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        /* margin-bottom: 10px; */
         width: 300px;
         height: 30px;
         border-radius: 3px;
@@ -243,7 +227,7 @@
 
 
 
-/* FOOTER BEGINS HERE  */
+/* FOOTER2 BEGINS HERE  */
 footer{
   display: none;
 }
