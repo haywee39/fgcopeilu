@@ -357,6 +357,7 @@ to{
 }
 
 #weekActs{
+    padding-top: 40px;
     width: 40%;
     height: 100%;
     text-align: center;
@@ -408,23 +409,7 @@ to{
     height: 100vh;
 }
 
-/* .icons{
-    display: flex;
-    justify-content: space-between;
-    bottom: left;
-    margin-top: 30px;
-   
-} */
-
 /* THE STYLING ENDS FOR CHURCH MEDIA ACTIVITIES CONTAINER  */
-
-
-
-
-
-
-
-
 
 
 
@@ -549,6 +534,7 @@ footer{
 }
 
 .footer2{
+    visibility: hidden;
     display: none;
 }
 
@@ -572,9 +558,7 @@ footer a:hover{
 .quick-links a{
     text-decoration: none;
     color: white;
-    line-height: 20px;
-  
-    
+    line-height: 20px;    
 }
 
 
@@ -586,11 +570,8 @@ footer a:hover{
 .follow-us a{
     color: white;
     text-decoration: none;
-    line-height: 22px;
-   
-  
+    line-height: 22px;    
 }
-
 .address{
     display: grid;
     width: 25%;
@@ -601,7 +582,6 @@ footer a:hover{
     text-decoration: none;
    
 }
-
 .copyright{
     display: grid;
     width: 25%;
@@ -618,12 +598,6 @@ footer a:hover{
    
 
 }
-
-.netlify{
-    width: 15px;
-    height: 15px;
-}
-
 
 .tag{
    text-shadow:5px 5px 3px black;

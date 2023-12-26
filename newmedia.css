@@ -245,19 +245,52 @@
 
 /* FOOTER BEGINS HERE  */
 footer{
-  /* display: none; */
-}
-.quick-links{
   display: none;
 }
-.follow-us{
-  display: none;
+.footer2{
+  visibility: visible;
+  display: grid;
+  width: 100%;
+  height: 70vh;
+  background-color: #454545;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+.quick-links2 a{
+  text-decoration: none;
+  color: white;
 }
 
-.footer2{
-  display: visible;
-  width: 100%;
-  height: 40vh;
+.follow-us2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.address2 a{
+  text-decoration: none;
+  color: white;
+}
+.copyright2 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.tags{
+   text-shadow:5px 5px 3px black;
+   animation:ayo 2s ease 1s infinite;  
+}
+
+@keyframes ayo{
+
+   0%{
+      transform:rotateX(-45deg);
+  }
+   50%{
+      transform:rotateY(45deg);
+  }
 }
 
 }
