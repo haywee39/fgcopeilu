@@ -310,15 +310,19 @@ to{
       );
       
 }
+#pastor-desk h1{
+    font-size: 35px;
+    text-shadow: red 1px 1px 1px; 
+}
+#pastor-desk h3{
+    font-family: 'Splash', cursive;
+    text-shadow: red 1px 1px 1px;
+    font-size: 35px;
+}
 #pastor-desk .msg{
     margin: 22px;
     font-weight: normal;
-    font-size: 13px;
-    /* display: -webkit-box; */
-    /* -webkit-line-clamp: 19; */
-    /* -webkit-box-orient: vertical; */
-    /* overflow: hidden; */
-    
+    font-size: 13px;  
 }
 #pastor-desk img{
     width: 130px;
@@ -330,14 +334,33 @@ to{
     margin-right:3rem;
 }
 
-/* #weekActs{
-    font-family:monospace;
-    width:40%;
+#live-stream{
+    display: block;
+    padding-top: 40px;
+    width: 20%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    align-items: center; 
+    text-align: center;    
+}
+#live-stream h1{
+    font-size: 35px;
+    text-shadow: red 1px 1px 1px; 
+}
+#live-stream p{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+#live-stream a{
+    text-decoration: none;
+    color: black;
+}
+
+#live-stream .btn{
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 18px;
     background: linear-gradient(
         55deg,
         rgba(214, 191, 14),
@@ -346,14 +369,8 @@ to{
         rgba(91, 14, 214, 0.5) 100%
         
       );
-      
-} */
+      text-shadow: white 2px 2px 2px;
 
-#live-stream{
-    margin-top: 10%;
-    width: 30%;
-    height: 100%;
-    
 }
 
 #weekActs{
@@ -367,13 +384,13 @@ to{
         rgba(214, 191, 14),
         rgba(14, 74, 214, 0.5),
         rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
+        rgba(91, 14, 214, 0.5)100%
         
       );
-      
+     
 }
 #weekActs h1{ 
-    font-size: 45px;
+    font-size: 35px;
     color: black;
     text-shadow: red 1px 1px 1px;  
 }
