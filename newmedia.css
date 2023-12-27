@@ -139,6 +139,11 @@
 #live-stream p{
   font-size: 10px;
 }
+#live-stream .btn{
+  width: 230px;
+  height: 40px;
+  font-size: 12px;
+}
 
 #weekActs{
     padding-top: 10%;
