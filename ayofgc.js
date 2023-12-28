@@ -10,6 +10,17 @@ const year= today.getFullYear()
 formatDate = `${nameOfDay.toUpperCase()}, ${day} ${month.toUpperCase()}  ${year} `
 document.getElementById('thisMonth').innerHTML=formatDate
 
+// JS FOR THE GALLERY LIGHTBOX DISPLAY
+function openLightbox(imageSrc) {
+    document.getElementById('lightbox-img').src = imageSrc;
+    document.getElementById('lightbox').style.display = 'flex';
+  }
+  
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+  
+
 
 
 
