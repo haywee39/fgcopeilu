@@ -170,7 +170,7 @@
 
 #gallery {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   height: 200vh;
   align-items: center;
@@ -188,8 +188,8 @@
   align-items: center;
 }
 .gallery-item {
-  width: 120px;
-  height:80px;
+  width: 80px;
+  height:50px;
 }
 .gallery-item img {
   width: 100px;
