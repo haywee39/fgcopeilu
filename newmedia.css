@@ -169,6 +169,7 @@
 
   #gallery {
     height: 320vh; /* Adjust height to fit smaller viewport */
+    width: auto;
     /* padding-top: 20px; Reduce padding if needed */
   }
 
@@ -179,7 +180,7 @@
   }
 
   .gallery-item {
-    width: 50%; /* Set width to 50% to create two-column layout */
+    width: 40%; /* Set width to 50% to create two-column layout */
     /* height: 120px; */
     /* margin-bottom: 10px; Add spacing between images */
   }

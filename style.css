@@ -427,7 +427,7 @@ to{
     
   }
 
-  .gal{
+  .gallery h1{
     font-family: 'Splash', cursive;
     text-shadow: red 1px 1px 1px;
     font-size: 40px;
@@ -490,7 +490,7 @@ to{
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
 #contact-us{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -504,6 +504,21 @@ to{
         rgba(91, 14, 214, 0.5) 100%
         
       );    
+}
+
+.contact-msg{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+
+
+}
+.contact-msg p{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .Location-WriteUs{
