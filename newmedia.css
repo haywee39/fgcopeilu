@@ -205,6 +205,19 @@
         width: 100%;
         height: auto;
     }
+.contact-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+
+}
+.contact-msg p{
+  font-size: 13px;
+}
 .Location-WriteUs{
         align-items: center;
         display: flex;
