@@ -168,8 +168,8 @@
 
 
   #gallery {
-    height: 320vh; /* Adjust height to fit smaller viewport */
-    width: auto;
+    height: auto; /* Adjust height to fit smaller viewport */
+    width: 100vw;
     /* padding-top: 20px; Reduce padding if needed */
   }
 
@@ -177,6 +177,7 @@
     flex-direction: row; /* Switch back to horizontal layout */
     flex-wrap: wrap; /* Allow images to wrap onto multiple rows */
     align-items: center;
+    width: 100%;
   }
 
   .gallery-item {
@@ -201,7 +202,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 .Location-WriteUs{
         align-items: center;
