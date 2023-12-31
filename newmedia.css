@@ -1,5 +1,14 @@
 @media (width < 768px) {
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+    list-style: none; 
+    font-family: monospace;
+    
+ }
+
   .carousel-inner{
     height: 100%;
     width: 100%;  
@@ -240,11 +249,7 @@
         margin-left: 45px;
        
     }
-    /* .message_me{
-        font-size: 25px;
-        letter-spacing: 2px;
-    } */
- 
+   
     form input{
         display: flex;
         flex-direction: column;

@@ -94,14 +94,12 @@ nav{
     background-repeat: no-repeat;        
     -webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-    /* color: white; */
     animation: filling 6s ease infinite;
     font-family: fantasy;
     font-size: 100px;
     font-weight: bold;
     letter-spacing:6px;
     line-height: 15vh; 
-    /* -webkit-text-stroke: .1px black; */
 }
 @keyframes filling{
 	from{
@@ -122,9 +120,7 @@ nav{
     background-image: url(./images/waterdrops.jpg);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
-    animation: filling 3s ease infinite;
-    /* -webkit-text-stroke: 1px black; */
-    
+    animation: filling 3s ease infinite;  
 }
 @keyframes filling{
 	from{
@@ -180,14 +176,7 @@ to{
     height: 12vh;
     background-color: grey;
     font-family: monospace;
-    /* background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-        
-      ); */
+   
 }
 .hebrews{
     font-size: 40px;
@@ -196,10 +185,7 @@ to{
     text-shadow: red 2px 2px 2px;
 }
 
-/* .activities{
-    background-color: grey; 
-    width: 100vw;
-} */
+
 .js_date{
     font-family: monospace;
     font-size: 40px;
@@ -221,14 +207,6 @@ to{
     height: 700px;
     align-items: center;
     justify-content: space-evenly;
-    /* background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-        
-      ); */
 
 }
 
@@ -489,6 +467,7 @@ to{
 
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
 #contact-us{
+    padding-top: 80px;
     width: 100vw;
     height: 150vh;
     align-items: center;
@@ -518,8 +497,8 @@ to{
 
 }
 .contact-msg p{
-    font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 17px;  
 }
 
 .Location-WriteUs{
@@ -724,14 +703,13 @@ footer a:hover{
 
 .opeilu img{
     height:35px;
-     width:300px;
+    width:300px;
 }
 
 .opeilu p{
     font-size: 20px;
     font-family: monospace;  
 }
-
 
 .aboutUs{
     width: 80%;
