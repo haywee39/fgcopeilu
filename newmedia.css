@@ -191,7 +191,7 @@
   }
 
   .gallery-item {
-    width: 50%; /* Set width to 50% to create two-column layout */
+    width: 40%; /* Set width to 50% to create two-column layout */
     /* height: 120px; */
     /* margin-bottom: 10px; Add spacing between images */
   }
@@ -201,7 +201,7 @@
   }
 
   .lightbox img {
-    max-width: 75%; /* Slightly reduce image size in lightbox */
+    max-width: 80%; /* Slightly reduce image size in lightbox */
   }
 
 
