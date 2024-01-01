@@ -425,8 +425,8 @@ to{
   }
   
   .gallery-item img {
-    width: 250px;
-    height:200px; 
+    width: 220px;
+    height:220px; 
     cursor: pointer;
   } 
 .lightbox {

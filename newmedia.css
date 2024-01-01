@@ -191,17 +191,17 @@
   }
 
   .gallery-item {
-    width: 40%; /* Set width to 50% to create two-column layout */
+    width: 50%; /* Set width to 50% to create two-column layout */
     /* height: 120px; */
     /* margin-bottom: 10px; Add spacing between images */
   }
 
   .gallery-item img {
-    /* height: 150px; Adjust image height as needed */
+    height: 150px; 
   }
 
   .lightbox img {
-    max-width: 80%; /* Slightly reduce image size in lightbox */
+    max-width: 75%; /* Slightly reduce image size in lightbox */
   }
 
 
