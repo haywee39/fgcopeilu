@@ -19,8 +19,7 @@ nav{
 
  .navbar{
     color: white;
-    /* background: #454545 !important; */
-    background: grey !important; 
+    background: #454545 !important;
     font-size: 17px;
 }
 
@@ -49,10 +48,7 @@ nav{
 
  
 /*MAIN STYLING FOR LANDING PAGE */
-#carouselExampleInterval {
-    /* width: 100vw; */
-    /* height: 100vh; */
-}
+
 .carousel-inner{
     height: 100vh;
     width: 100vw;  
@@ -88,18 +84,19 @@ nav{
 }
 
  /* church name styling */
-.fgc{  
-    background-image: url(./images/waterdrops.jpg);
+.fgc{ 
+    font-family: fantasy;
+    font-size: 95px;
+    letter-spacing:6px;
+    line-height: 15vh; 
+    color: white;
+    /* background-image: url(./images/waterdrops.jpg);
     background-size: cover;
     background-repeat: no-repeat;        
     -webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
     animation: filling 6s ease infinite;
-    font-family: fantasy;
-    font-size: 100px;
-    font-weight: bold;
-    letter-spacing:6px;
-    line-height: 15vh; 
+     
 }
 @keyframes filling{
 	from{
@@ -107,17 +104,16 @@ nav{
 	}
 	to{
 		background-position: center 50%;
-	}
+	} */
 }
 
  /* zone name styling */
 .zone-name{
     font-family: fantasy;
-    font-weight: bold;
-    font-size: 45px;
-    letter-spacing: 3px;
+    font-size: 40px;
+    letter-spacing: 2px;
     margin-top: 55px;
-    background-image: url(./images/waterdrops.jpg);
+    /* background-image: url(./images/waterdrops.jpg);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     animation: filling 3s ease infinite;  
@@ -128,7 +124,7 @@ nav{
 	}
 	to{
 		background-position: center 50%;
-	}
+	} */
 }
 
  /* church slogan styling */
@@ -138,16 +134,15 @@ nav{
     align-items: center;
     justify-content: center;
     text-shadow: red 3px 3px 3px;
-    margin-left: 150px;
-    
+    margin-left: 150px;    
 }
 
 .slogan_box h4{
     color: white;
     font-family: 'Splash', cursive;
-    font-size: 70px;
+    font-size: 65px;
     letter-spacing: 4px;
-    line-height: 25vh;
+    line-height: 20vh;
 }
 
 /*MAIN STYLING FOR LANDING PAGE ENDS HERE */
@@ -155,9 +150,10 @@ nav{
 .alternate-zonename{
     display: flex;
     visibility: hidden;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bolder;
-    background-image: url(./images/waterdrops.jpg);
+    color: white;
+    /* background-image: url(./images/waterdrops.jpg);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     animation: opeilu 3s ease infinite;
@@ -168,14 +164,18 @@ from{
 }
 to{
     background-position: center 100%;
-}
+} */
 }
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
     width: 100vw;
     height: 12vh;
-    background-color: grey;
     font-family: monospace;
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
    
 }
 .hebrews{
@@ -202,11 +202,15 @@ to{
 #themes{
     display: flex;
     flex-direction: row;
-    background-color: grey;
     width: 100vw;
     height: 700px;
     align-items: center;
     justify-content: space-evenly;
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
 
 }
 
@@ -229,20 +233,19 @@ to{
     width: 45%;
     height: 550px;
     text-align: center;
-    background: url(./edward-cisneros-KoKAXLKJwhk-unsplash.jpg) no-repeat center fixed;
+    background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg) no-repeat center fixed;
     background-size: cover; 
 }
 .theme-month h1{
-    text-shadow: black 8px 8px 8px;
     color: white;
     font-family: 'Splash', cursive;
-    font-size: 75px;
+    font-size: 70px;
     font-weight: bold;
     text-shadow: red 2px 2px 2px;
     word-spacing: 50px;
 }
 .theme-month h2{
-    text-shadow: black 5px 5px 5px;
+    text-shadow: black 4px 4px 4px;
     color: white;
     font-family: monospace;
     font-size: 30px;
@@ -251,8 +254,8 @@ to{
     text-align: center;
     color: white;
     font-family: fantasy;
-    text-shadow: black 8px 8px 8px;
-    font-size: 17px;
+    text-shadow: black 4px 4px 4px;
+    font-size: 18px;
 }
 /* END THE THEME FOR THE YEAR */
 
@@ -279,12 +282,9 @@ to{
     padding-top: 50px;
     align-items: center; 
     background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
+        45deg,
         rgba(236, 74, 29, 0.5),
         rgba(91, 14, 214, 0.5) 100%
-        
       );
       
 }
@@ -340,14 +340,12 @@ to{
     font-weight: bolder;
     border-radius: 18px;
     background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
+        45deg,
         rgba(236, 74, 29, 0.5),
         rgba(91, 14, 214, 0.5) 100%
-        
-      );
-      text-shadow: white 2px 2px 2px;
+    );
+    text-shadow: white 2px 2px 2px;
+    
 
 }
 
@@ -358,12 +356,9 @@ to{
     text-align: center;
     font-family: monospace;
     background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
+        45deg,
         rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5)100%
-        
+        rgba(91, 14, 214, 0.5) 100%
       );
      
 }
@@ -402,6 +397,11 @@ to{
     align-items: center;
     justify-content: center;
     padding-top: 50px;
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
     
   }
 
@@ -475,14 +475,11 @@ to{
     flex-direction: column;
     background-color: black; 
     border-radius: 3px;
-    background: linear-gradient(
-        55deg,
-        rgba(214, 191, 14),
-        rgba(14, 74, 214, 0.5),
+      background: linear-gradient(
+        45deg,
         rgba(236, 74, 29, 0.5),
         rgba(91, 14, 214, 0.5) 100%
-        
-      );    
+      );
 }
 
 .contact-msg{
@@ -677,14 +674,14 @@ footer a:hover{
 
 
 /* STYLING FOR THE ABOUT US PAGE BEGINS HERE  */
-.big-box{
-    padding-top: 11vh;
+#big-box{
+    /* padding-top: 11vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     width:100vw;
-    height: 135vh;
+    height: 140vh;
     color: white;   
     background: url(./images/churchbuilding.jpg) no-repeat center fixed;
     background-size: cover; 
@@ -697,22 +694,29 @@ footer a:hover{
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    text-shadow: red 2px -3px 2px; 
-    font-family: fantasy;   
+    text-shadow: red 2px 2px 2px; 
+       
 }
 
+.opeilu h1{
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
 .opeilu img{
-    height:35px;
-    width:300px;
+    height:100px;
+    width:100px;
 }
 
 .opeilu p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: monospace;  
 }
 
 .aboutUs{
-    width: 80%;
+    width: 85%;
     
 }
 
@@ -720,27 +724,26 @@ footer a:hover{
     padding-top: 10px;
     font-size: 40px;
     letter-spacing: 3px;
-    text-shadow: red 3px -3px 3px;
-    text-decoration: solid; 
+    text-shadow: red 2px 2px 2px;
     font-family: fantasy;   
 }
 
 .aboutUs h2{
-    text-shadow: red 3px -3px 3px;
-    font-size: 28px;
+    text-shadow: red 2px 2px 2px;
+    font-size: 25px;
     letter-spacing: 3px;
     font-family: fantasy;
 }
 
 .aboutUs p{
     font-family: monospace;  
-    font-size: 17px;
-    text-shadow: black 4px 4px 4px; 
+    font-size: 18px;
+    text-shadow: red 2px 2px 2px; 
 }
 
 .img-fold img{
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
 
 }
 
@@ -753,7 +756,7 @@ footer a:hover{
     font-size: 40px;
     text-shadow: red 2px 2px 2px;
     color: white;
-    background: url(./images/seabernd-dittrich-fiXjuBOECs4-unsplash.jpg);
+    background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg);
     width:100%;
     height: 10vh;
 }

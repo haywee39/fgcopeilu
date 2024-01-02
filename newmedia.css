@@ -1,13 +1,13 @@
 @media (width < 768px) {
 
-  *{
+  /* *{
     margin: 0;
     padding: 0;
     box-sizing:border-box; 
     list-style: none; 
     font-family: monospace;
     
- }
+ } */
 
   .carousel-inner{
     height: 100%;
@@ -175,7 +175,7 @@
    
 }
 #weekActs p{
-    font-size:10px;
+    font-size:12px;
     font-weight: bolder;
     text-align: center;
 }
@@ -184,13 +184,15 @@
   #gallery {
     height: auto; /* Adjust height to fit smaller viewport */
     width: 100vw;
-    padding-top: 20px; 
+    padding-top: 60px; 
+    
   }
 
   .gallery-container {
     flex-direction: row; /* Switch back to horizontal layout */
     flex-wrap: wrap; /* Allow images to wrap onto multiple rows */
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: auto;
   }
@@ -198,16 +200,19 @@
   .gallery-item {
     width: 150px; 
     height: 150px;
+    align-items: center;
+    justify-content: center;
+    
     /* margin-bottom: 10px; Add spacing between images */
   }
 
   .gallery-item img {
-    height: 120px;
-    width: 120px; 
+    height: 140px;
+    width: 140px; 
   }
 
   .lightbox img {
-    max-width: 80%; /* Slightly reduce image size in lightbox */
+    max-width: 85%; /* Slightly reduce image size in lightbox */
   }
 
 
@@ -324,11 +329,10 @@ footer{
 }
 
 
-.tags{
+/* .tags{
    text-shadow:5px 5px 3px black;
    animation:ayo 2s ease 1s infinite;  
 }
-
 @keyframes ayo{
 
    0%{
@@ -337,5 +341,81 @@ footer{
    50%{
       transform:rotateY(45deg);
   }
+} */
 }
+
+
+/* START HERE MEDIA QUERY FOR THE ABOUT PAGE */
+@media (width < 768px) {
+
+  #big-box{
+      /* padding-top: 10vh; */
+      width:100%;
+      /* height: 145vh; */
+      height: auto;
+      color: white;
+      /* margin-bottom: 10px; */
+      
+  }
+
+  .opeilu img{
+      height: 55px;
+      width: 55px;
+  }
+
+  .opeilu h1{
+      font-size: 22px;
+  }
+  .opeilu p{
+      font-size: 14px;
+      text-align: center;
+      text-shadow: red 1px 1px 1px;
+      letter-spacing: 1px;
+  }   
+  .aboutUs{
+      width: 90%;
+  }
+
+  .aboutUs h1{
+      font-size: 22px;
+      letter-spacing: 2px;
+      text-shadow: red 3px -3px 3px;       
+  }
+
+  .aboutUs h2{
+      font-size: 18px;
+      letter-spacing: 2px;
+  }
+  .aboutUs p{
+      font-size: 13px;
+      line-height: 20px;
+  }
+
+  .img-fold img{
+      width: 25px;
+      height: 25px;
+
+  }
+
+  .tenets-heading{
+      padding-top: 5px;
+      font-size: 21px;
+      text-shadow: red 2px -2px 2px;
+      width:100%;
+      height: 13vh;        
+  }
+
+  .accordion-flush{
+      width: 80vw;
+      margin-left: 10%;
+  }
+
+  .accordion-body{
+     font-size: 13px;        
+  }
+
+  .accordion-button.collapsed{
+      font-size: 17px;
+      font-weight: bold;
+  }
 }
