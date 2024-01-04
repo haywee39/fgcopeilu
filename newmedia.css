@@ -5,10 +5,11 @@
     width: 100%;  
   }
   .free-gift{
-    visibility: hidden;
+    visibility:hidden ;
 }
 .free-gift2{
     visibility: visible;
+    display: ;
 }
   .landing-page{
     width: 100%;
