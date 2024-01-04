@@ -4,8 +4,11 @@
     height: 100%;
     width: 100%;  
   }
-  .free-gift a{
-    font-size: 8px;
+  .free-gift{
+    visibility: hidden;
+}
+.free-gift2{
+    visibility: visible;
 }
   .landing-page{
     width: 100%;
