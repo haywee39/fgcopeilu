@@ -87,13 +87,13 @@ nav{
     visibility: hidden;
     position: absolute;
     text-align: center;
-    bottom: 5%;
-    right: 35%;
+    bottom: 40%;
+    right: 0%;
     z-index: 1;
-    animation:gift 2s ease 3s infinite;  
+    animation:gift2 2s ease 3s infinite;  
 }
 
-@keyframes gift{
+@keyframes gift2{
 
    0%{
       transform:rotateY(0deg);

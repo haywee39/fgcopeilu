@@ -9,7 +9,8 @@
 }
 .free-gift2{
     visibility: visible;
-    display: ;
+    display:flex ;
+    font-size: 8px;
 }
   .landing-page{
     width: 100%;
