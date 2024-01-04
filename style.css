@@ -58,8 +58,8 @@ nav{
 .free-gift{
     position: absolute;
     text-align: center;
-    top: 10%;
-    right: 5%;
+    top: 15%;
+    right: 15%;
     z-index: 1;
     animation:gift 2s ease 3s infinite;  
 }
@@ -73,8 +73,14 @@ nav{
     transform:rotateY(90deg);
 }
    50%{
-      transform:rotateX(30deg);
+      transform:rotateX(0deg);
   }
+  75%{
+    transform:rotateX(60deg);
+}
+  100%{
+    transform:rotateX(0deg);
+}
 }
 
 .free-gift a{
