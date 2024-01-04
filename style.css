@@ -88,7 +88,7 @@ nav{
     position: absolute;
     text-align: center;
     bottom: 40%;
-    right: 0%;
+    right: 20%;
     z-index: 1;
     animation:gift2 2s ease 3s infinite;  
 }
