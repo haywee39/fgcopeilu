@@ -85,7 +85,7 @@ nav{
 
 .free-gift a{
     color: yellow;
-    font-size: 18px;
+    /* font-size: 18px; */
     text-decoration: none;
     text-shadow: red 2px 2px 2px;    
 }
@@ -488,7 +488,7 @@ to{
   }
   
   .close-btn {
-    color: red;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     position: absolute;
