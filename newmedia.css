@@ -4,11 +4,8 @@
     height: 100%;
     width: 100%;  
   }
-  .free-gift{
-    visibility:hidden ;
-}
-.free-gift2{
-    visibility: visible;
+  
+.free-gift{
     display:flex ;
     font-size: 8px;
 }

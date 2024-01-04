@@ -83,44 +83,9 @@ nav{
 }
 }
 
-.free-gift2{
-    visibility: hidden;
-    position: absolute;
-    text-align: center;
-    bottom: 55%;
-    right: 30%;
-    z-index: 1;
-    animation:gift2 2s ease 3s infinite;  
-}
-
-@keyframes gift2{
-
-   0%{
-      transform:rotateY(0deg);
-  }
-  25%{
-    transform:rotateY(90deg);
-}
-   50%{
-      transform:rotateX(0deg);
-  }
-  75%{
-    transform:rotateX(60deg);
-}
-  100%{
-    transform:rotateX(0deg);
-}
-}
-
 .free-gift a{
     color: yellow;
     font-size: 18px;
-    text-decoration: none;
-    text-shadow: red 2px 2px 2px;    
-}
-
-.free-gift2 a{
-    color: yellow;
     text-decoration: none;
     text-shadow: red 2px 2px 2px;    
 }
