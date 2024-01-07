@@ -596,14 +596,24 @@ textarea{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: orange;
     color: black;
     font-size: 20px;
     font-weight: bolder;
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
 }
 .submit:hover{
-    background-color: #6495ed;
+    /* background-color: #6495ed; */
     box-shadow: antiquewhite 3px 3px 3px;
+    background: linear-gradient(
+        45deg,
+        rgba(91, 14, 214, 0.5) 
+        rgba(236, 74, 29, 0.5),50%
+        /* rgba(91, 14, 214, 0.5) 50% */
+      );
 }
 /* THE STYLING FOR THE CONTACT US SECTION ENDS HERE  */
 
