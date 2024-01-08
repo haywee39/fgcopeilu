@@ -6,6 +6,13 @@
     font-family: monospace;
     
  }
+ body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
 
  html{
     scroll-behavior: smooth;
@@ -298,7 +305,7 @@ to{
 /* THE STYLING BEGINS FOR CHURCH MEDIA ACTIVITIES CONTAINER  */
 #media{
     width: 100vw;
-    height: 110vh;
+    height: 115vh;
 }
 
 #overalldrop{
@@ -422,6 +429,53 @@ to{
 #weekActs hr{
     font-weight: bolder;
     color: black;
+}
+
+#testimony{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    /* padding-top: 50px; */
+
+}
+
+#testimony marquee ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    /* place-items: center; */
+    height: 100%;
+    width: 100%;
+}
+#testimony marquee ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    place-items: center;
+    height: 60vh;
+    width: 50%;
+    
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
+
+}
+
+.testimony-list img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
 }
 
 
