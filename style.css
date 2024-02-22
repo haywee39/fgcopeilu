@@ -192,43 +192,30 @@ nav{
 
 /*MAIN STYLING FOR LANDING PAGE ENDS HERE */
 
-.alternate-zonename{
+/* .alternate-zonename{
     display: flex;
     visibility: hidden;
     font-size: 23px;
     font-weight: bolder;
     color: white;
-    /* background-image: url(./images/waterdrops.jpg);
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-    animation: opeilu 3s ease infinite;
-}
-@keyframes opeilu{
-from{
-    background-position: bottom 50%;
-}
-to{
-    background-position: center 100%;
 } */
-}
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
-    width: 100vw;
-    height: 12vh;
+    /* width: 100vw; */
+    /* height: 5vh; */
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
 }
 .hebrews{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: red;
     text-shadow: black 2px 2px 2px;
-    /* padding-bottom: 20px; */
 }
 
 
 .js_date{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: lowercase;
     width: 100vw;
