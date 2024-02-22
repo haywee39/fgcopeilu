@@ -465,4 +465,17 @@ footer{
       font-size: 17px;
       font-weight: bold;
   }
+  .top-about{
+    position: fixed;
+    width: 100vw;
+    align-items: right;   
+    z-index: 1;
+    padding-left: 10px;
+    bottom: 30px;
+}
+
+.top-about .fa-solid{
+    text-decoration: none;
+    color: red;
+}
 }
