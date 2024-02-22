@@ -36,9 +36,14 @@
     display: none;
     font-size: 20px;
   }
-  .zone-name2{
+  .zone{
     visibility: visible;
+    font-size: 20px;
   }
+  /* .zone-name2{
+    visibility: visible;
+    z-index: 1;
+  } */
 
   .slogan_box{
     display: flex;
