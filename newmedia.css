@@ -465,7 +465,7 @@ footer{
       font-size: 17px;
       font-weight: bold;
   }
-  .top-about{
+  /* .top-about{
     position: fixed;
     width: 100vw;
     align-items: right;   
@@ -477,5 +477,9 @@ footer{
 .top-about .fa-solid{
     text-decoration: none;
     color: red;
+} */
+
+.free-gift{
+  margin-left: 20px;
 }
 }
