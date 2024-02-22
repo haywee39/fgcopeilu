@@ -43,7 +43,7 @@ nav{
 }
 
 .nav-item a:hover{
-    color:orange !important;
+    color:orangered !important;
 }
 
 .dropdown-menu{
@@ -215,30 +215,25 @@ to{
 .heb{
     width: 100vw;
     height: 12vh;
-    font-family: monospace;
-    background: linear-gradient(
-        45deg,
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
-   
+    align-items: center;
+    justify-content: center;  
 }
 .hebrews{
     font-size: 40px;
     font-weight: bold;
-    color: white;
-    text-shadow: red 2px 2px 2px;
+    color: red;
+    text-shadow: black 2px 2px 2px;
+    /* padding-bottom: 20px; */
 }
 
 
 .js_date{
-    font-family: monospace;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
     text-transform: lowercase;
     width: 100vw;
-    color: white;
-    text-shadow: red 2px 2px 2px; 
+    color: red;
+    text-shadow: black 2px 2px 2px; 
     align-items: center;
     justify-content: center;
     text-align: center;  
@@ -251,12 +246,6 @@ to{
     height: 700px;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(
-        45deg,
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
-
 }
 
 /*START THE THEME FOR THE YEAR  */
@@ -284,16 +273,16 @@ to{
 .theme-month h1{
     color: white;
     font-family: 'Splash', cursive;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: bold;
-    text-shadow: red 2px 2px 2px;
+    color: red;
+    text-shadow: black 2px 2px 2px;
     word-spacing: 50px;
+    letter-spacing: 5px;
 }
 .theme-month h2{
     text-shadow: black 4px 4px 4px;
-    color: white;
-    font-family: monospace;
-    font-size: 30px;
+    font-size: 35px;
 }
 .theme-month marquee{
     text-align: center;
@@ -319,7 +308,7 @@ to{
 }
 
 #pastor-desk{
-    font-family:monospace;
+    /* font-family:monospace; */
     width:40%;
     height: 100%;
     display: flex;
@@ -358,6 +347,7 @@ to{
 }
 
 #live-stream{
+    font-family: monospace;
     display: block;
     padding-top: 40px;
     width: 20%;
@@ -399,7 +389,6 @@ to{
     width: 40%;
     height: 100%;
     text-align: center;
-    font-family: monospace;
     background: linear-gradient(
         45deg,
         rgba(236, 74, 29, 0.5),
@@ -434,6 +423,7 @@ to{
 }
 
 #testimony{
+    /* font-family: Monospace; */
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -452,7 +442,6 @@ to{
     align-items: center;
     justify-content: center;
     text-align: center; 
-    /* place-items: center; */
     height: 100%;
     width: 100%;
 }
@@ -464,8 +453,7 @@ to{
     text-align: center; 
     place-items: center;
     height: 70vh;
-    width: 100vw;
-    
+    width: 100vw;    
     background: linear-gradient(
         45deg,
         rgba(236, 74, 29, 0.5),
@@ -488,17 +476,11 @@ to{
     height: 160vh;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    background: linear-gradient(
-        45deg,
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
-    
+     place-items: center;
+    padding-top: 10px; 
   }
 
-  .gallery h1{
-    font-family: 'Splash', cursive;
+  .gal{
     text-shadow: red 1px 1px 1px;
     font-size: 40px;
 }
@@ -517,8 +499,8 @@ to{
   }
   
   .gallery-item img {
-    width: 220px;
-    height:220px; 
+    width: 210px;
+    height:210px; 
     cursor: pointer;
   } 
 .lightbox {
@@ -559,7 +541,7 @@ to{
 
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
 #contact-us{
-    padding-top: 80px;
+    padding-top: 50px;
     width: 100vw;
     height: 150vh;
     align-items: center;
@@ -608,7 +590,7 @@ to{
 
 .message_me{
     color: black;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 40px;
 }
 .lets_talk{
@@ -646,6 +628,7 @@ textarea{
 }
 
 .submit{
+    /* font-family: monospace; */
     display: flex;
     width: 520px;
     height: 40px;
@@ -654,7 +637,7 @@ textarea{
     text-align: center;
     color: black;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     background: linear-gradient(
         45deg,
         rgba(236, 74, 29, 0.5),
@@ -685,17 +668,19 @@ textarea{
 /* STYLING FOR THE FOOTER AREA  */
 
 footer{
+    /* font-family: monospace; */
     display:flex;
     background-color: #454545;  
     width: 100vw;
-    height: 30vh;
+    height: 28vh;
     color: white;
     justify-content: space-around;
     place-items: center;
-    font-size:16px;  
+    font-size:15px;  
 }
 
 .footer2{
+    /* font-family: monospace; */
     visibility: hidden;
     display: none;
 }
@@ -706,7 +691,8 @@ footer a{
 footer a:hover{
     padding-left: 10px;
     font-weight: bolder;
-    color: orange;
+    /* color: orange; */
+    color: orangered
 }
 
 
@@ -745,6 +731,7 @@ footer a:hover{
    
 }
 .copyright{
+    /* font-family: monospace; */
     display: grid;
     width: 25%;
     margin-left: 25px;
@@ -775,9 +762,16 @@ footer a:hover{
 }
 
 
+
+
+
+
+
+
 /* STYLING FOR THE ABOUT US PAGE BEGINS HERE  */
 #big-box{
-    /* padding-top: 11vh; */
+    padding-top: 5vh;
+    font-family: helvetica;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -814,7 +808,6 @@ footer a:hover{
 
 .opeilu p{
     font-size: 18px;
-    font-family: monospace;  
 }
 
 .aboutUs{
@@ -831,15 +824,14 @@ footer a:hover{
 }
 
 .aboutUs h2{
-    text-shadow: red 2px 2px 2px;
-    font-size: 25px;
-    letter-spacing: 3px;
     font-family: fantasy;
+    font-size: 25px;
+    text-shadow: red 2px 2px 2px;
+    letter-spacing: 3px;
 }
 
 .aboutUs p{
-    font-family: monospace;  
-    font-size: 18px;
+       font-size: 18px;
     text-shadow: red 2px 2px 2px; 
 }
 
@@ -897,6 +889,20 @@ footer a:hover{
         rgba(29, 236, 197, 0.5)
          100%
       );
+}
+
+.top-about{
+    position: fixed;
+    width: 100vw;
+    align-items: left;   
+    z-index: 1;
+    padding-left: 50px;
+    bottom: 200px;
+}
+
+.top-about .fa-solid{
+    text-decoration: none;
+    color: red;
 }
 
 
