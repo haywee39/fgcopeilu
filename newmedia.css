@@ -33,9 +33,15 @@
      font-family: fantasy;
   }
   .zone-name{
-    display: visible;
+    display: none;
     font-size: 20px;
   }
+  .zone-name2{
+    visibility: visible;
+    /* font-size: 20px; */
+    /* color: red; */
+  }
+
   .slogan_box{
     display: flex;
     flex-direction: column;
