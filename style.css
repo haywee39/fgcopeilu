@@ -628,7 +628,6 @@ textarea{
 }
 
 .submit{
-    /* font-family: monospace; */
     display: flex;
     width: 520px;
     height: 40px;
@@ -645,7 +644,6 @@ textarea{
       );
 }
 .submit:hover{
-    /* background-color: #6495ed; */
     box-shadow: antiquewhite 3px 3px 3px;
     background: linear-gradient(
         45deg,
