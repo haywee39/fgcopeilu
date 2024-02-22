@@ -45,7 +45,7 @@
     line-height: 30px;
   }
   .hebrews{
-    display: none;
+    display: visible;
   }
   .alternate-zonename {
     visibility: visible;
