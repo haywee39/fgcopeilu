@@ -40,11 +40,7 @@
     visibility: visible;
     font-size: 20px;
   }
-  /* .zone-name2{
-    visibility: visible;
-    z-index: 1;
-  } */
-
+  
   .slogan_box{
     display: flex;
     flex-direction: column;
@@ -193,9 +189,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* background-color: white; */
-  /* padding-top: 50px; */
-
 }
 
 #testimony marquee ul {
@@ -204,7 +197,6 @@
   align-items: center;
   justify-content: center;
   text-align: center; 
-  /* place-items: center; */
   height: 100%;
   width: 100%;
 }
