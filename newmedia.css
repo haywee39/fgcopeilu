@@ -6,7 +6,6 @@
   }
   
 .free-gift{
-    /* display:flex ; */
     font-size: 8px;
 }
   .landing-page{
@@ -182,44 +181,33 @@
 }
 
 #testimony{
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
   height: 80vh;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  width: 100vw;
+ 
+}
+.slider-testy{
+  width:80%;
+  height: 100%;
 }
 
-#testimony marquee ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center; 
+.words p{
+  font-size: 12px;
+  width: 90%;
   height: 100%;
-  width: 100%;
 }
-#testimony marquee ul li{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center; 
-  place-items: center;
-  height: 100%;
-  width: 100%;
-  
-  background: linear-gradient(
-      45deg,
-      rgba(236, 74, 29, 0.5),
-      rgba(91, 14, 214, 0.5) 100%
-    );
 
+/* .changer{
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-20%);
+} */
+.count{
+  width: 25px;
+  height: 5px;
+  margin: 4px;
+  border: 1px solid black;
 }
-#testimony marquee ul li p{
-  font-size: 11px;
-}
+
 
 
   #gallery {

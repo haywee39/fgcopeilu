@@ -191,13 +191,7 @@ nav{
 
 /*MAIN STYLING FOR LANDING PAGE ENDS HERE */
 
-/* .alternate-zonename{
-    display: flex;
-    visibility: hidden;
-    font-size: 23px;
-    font-weight: bolder;
-    color: white;
-} */
+
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
     /* width: 100vw; */
@@ -382,6 +376,7 @@ nav{
       );
      
 }
+
 #weekActs h1{ 
     font-size: 35px;
     color: black;
@@ -408,7 +403,106 @@ nav{
     color: black;
 }
 
+/* STYLING FOR THE TESTIMOIES SECTION BEGINS HERE  */
+#testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(
+        45deg,
+        rgba(236, 74, 29, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
+     
+}
 
+#testimony h1{
+    text-shadow: red 1px 1px 1px;
+    font-size: 40px;
+}
+
+.slider-testy{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.words p{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+}
+
+.changer{
+    position: relative;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-20%);
+}
+
+.count{
+    width: 50px;
+    height: 10px;
+    margin: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.count:hover{
+    background: black;
+}
+
+input[name="r"]{
+    /* position: relative; */
+    visibility: hidden;
+}
+
+.slides-container{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.testy{
+    width: 20%;
+    transition: 0.6s;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
 
 #gallery {
     display: flex;
