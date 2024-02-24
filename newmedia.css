@@ -182,31 +182,28 @@
 
 #testimony{
   height: 80vh;
-  width: 100vw;
+  width: 100%;
  
 }
 .slider-testy{
-  width:80%;
-  height: 100%;
+  width:650px;
+  height: 450px;
 }
 
 .words p{
   font-size: 12px;
-  width: 90%;
-  height: 100%;
+  width: 80%;
+  height: 75%;
 }
 
-/* .changer{
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-20%);
-} */
+
 .count{
   width: 25px;
   height: 5px;
   margin: 4px;
   border: 1px solid black;
 }
+
 
 
 
