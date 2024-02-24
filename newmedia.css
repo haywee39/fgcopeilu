@@ -186,7 +186,12 @@
  
 }
 .slider-testy{
-  width:350px;
+  width:320px;
+  height: 400px;
+}
+
+.words img{
+  width: 300px;
   height: 400px;
 }
 
