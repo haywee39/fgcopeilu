@@ -180,37 +180,6 @@
     text-align: center;
 }
 
-#testimony{
-  height: 80vh;
-  width: 100%;
- 
-}
-.slider-testy{
-  width:350px;
-  height: 400px;
-}
-
-.words .testythumbnail2{
-  width: 310px;
-  height: 380px;
-}
-
-.words p{
-  font-size: 12px;
-  width: 75%;
-  height: 75%;
-}
-
-
-.count{
-  width: 25px;
-  height: 5px;
-  margin: 4px;
-  border: 1px solid black;
-}
-
-
-
 
   #gallery {
     height: auto; /* Adjust height to fit smaller viewport */
@@ -245,6 +214,40 @@
   }
 
 
+/* TESTIMONY SECTION BEGINS HERE  */
+#testimony{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row; */
+ 
+}
+
+.testy-cover{
+  height: 95%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail{
+  width: 90%;
+  height: 60%;
+}
+.heady{
+  width: 90%;
+  height: 60%;
+}
+
+.thumbnail img{
+  width: 80%;
+  height: 70%;
+}
+.heady img{
+  width: 80%;
+  height: 70%;
+}
 
 /* LOCATION AND MAP  */
 #contact-us{
