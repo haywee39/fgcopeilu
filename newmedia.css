@@ -186,18 +186,18 @@
  
 }
 .slider-testy{
-  width:320px;
+  width:290px;
   height: 400px;
 }
 
-.words img{
-  width: 300px;
+.words .testythumbnail2{
+  width: 230px;
   height: 400px;
 }
 
 .words p{
   font-size: 12px;
-  width: 80%;
+  width: 75%;
   height: 75%;
 }
 
