@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing:border-box; 
     list-style: none; 
-    /* font-family: monospace; */
     font-family: Helvetica;
-    /* font-family:; */
-    
+    scroll-behavior: smooth;
+    /* font-family: 'poppins', sans-serif;     */
  }
  body{
     display: flex;
@@ -94,7 +93,6 @@ nav{
 
 .free-gift a{
     color: yellow;
-    /* font-size: 18px; */
     text-decoration: none;
     text-shadow: red 2px 2px 2px;    
 }
@@ -272,7 +270,6 @@ nav{
 }
 
 #pastor-desk{
-    /* font-family:monospace; */
     width:40%;
     height: 100%;
     display: flex;
@@ -561,7 +558,6 @@ nav{
 
 .message_me{
     color: black;
-    /* font-family: monospace; */
     font-size: 40px;
 }
 .lets_talk{
@@ -620,7 +616,6 @@ textarea{
         45deg,
         rgba(91, 14, 214, 0.5) 
         rgba(236, 74, 29, 0.5),50%
-        /* rgba(91, 14, 214, 0.5) 50% */
       );
 }
 /* THE STYLING FOR THE CONTACT US SECTION ENDS HERE  */
@@ -637,11 +632,10 @@ textarea{
 /* STYLING FOR THE FOOTER AREA  */
 
 footer{
-    /* font-family: monospace; */
     display:flex;
     background-color: #454545;  
     width: 100vw;
-    height: 28vh;
+    height: 30vh;
     color: white;
     justify-content: space-around;
     place-items: center;
@@ -649,7 +643,6 @@ footer{
 }
 
 .footer2{
-    /* font-family: monospace; */
     visibility: hidden;
     display: none;
 }
@@ -660,7 +653,6 @@ footer a{
 footer a:hover{
     padding-left: 10px;
     font-weight: bolder;
-    /* color: orange; */
     color: orangered
 }
 
@@ -700,7 +692,6 @@ footer a:hover{
    
 }
 .copyright{
-    /* font-family: monospace; */
     display: grid;
     width: 25%;
     margin-left: 25px;
@@ -729,6 +720,7 @@ footer a:hover{
       transform:rotateY(45deg);
   }
 }
+
 
 
 
@@ -859,21 +851,6 @@ footer a:hover{
          100%
       );
 }
-
-/* .top-about{
-    position: fixed;
-    width: 100vw;
-    align-items: left;   
-    z-index: 1;
-    padding-left: 50px;
-    bottom: 200px;
-}
-
-.top-about .fa-solid{
-    text-decoration: none;
-    color: red;
-} */
-
 
 
 

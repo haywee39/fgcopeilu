@@ -360,19 +360,21 @@ footer{
   color: white;
 }
 
-.copyright2 .tag2{
-   text-shadow:5px 5px 3px black;
-   animation:jolly 2s ease 1s infinite;  
+.tag2{
+  text-shadow:5px 5px 3px black;
+  animation:sayo 2s ease 1s infinite;  
 }
-@keyframes jolly{
 
-   0%{
-      transform:rotateX(-45deg);
-  }
-   50%{
-      transform:rotateY(45deg);
-  }
+@keyframes sayo{
+
+  0%{
+     transform:rotateX(-45deg);
+ }
+  50%{
+     transform:rotateY(45deg);
+ }
 }
+
 
 }
 
