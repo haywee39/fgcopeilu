@@ -135,21 +135,6 @@ nav{
     letter-spacing:6px;
     line-height: 15vh; 
     color: white;
-    /* background-image: url(./images/waterdrops.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;        
-    -webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-    animation: filling 6s ease infinite;
-     
-}
-@keyframes filling{
-	from{
-		background-position: bottom 0%;
-	}
-	to{
-		background-position: center 50%;
-	} */
 }
 
  /* zone name styling */
@@ -194,8 +179,6 @@ nav{
 
 /* Styling for the marquee Heb 13:8 start*/
 .heb{
-    /* width: 100vw; */
-    /* height: 5vh; */
     align-items: center;
     justify-content: center; 
 }
@@ -272,6 +255,7 @@ nav{
     font-size: 18px;
 }
 /* END THE THEME FOR THE YEAR */
+
 
 /* THE STYLING BEGINS FOR CHURCH MEDIA ACTIVITIES CONTAINER  */
 #media{
