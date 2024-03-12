@@ -263,7 +263,12 @@ nav{
 /* THE STYLING BEGINS FOR CHURCH MEDIA ACTIVITIES CONTAINER  */
 #media{
     width: 100vw;
-    height: 120vh;
+    height: 125vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #overalldrop{
@@ -272,6 +277,10 @@ nav{
     align-items: center;
     width: 100%;
     height: 100%;
+
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
 }
 
 #pastor-desk{
