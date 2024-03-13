@@ -228,9 +228,8 @@ nav{
     width: 45%;
     height: 550px;
     text-align: center;
-    background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg);
-    /* background-size: cover;  */
-    /* background: url(./images/churchbuilding.jpg); */
+    /* background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg); */
+    background: url(./images/churchbuilding.jpg);
     background-size: cover; /* or contain */
     background-repeat: no-repeat;
     background-position: center center;
@@ -247,14 +246,14 @@ nav{
     letter-spacing: 5px;
 }
 .theme-month h2{
-    text-shadow: black 4px 4px 4px;
+    text-shadow: black 3px 3px 3px;
     font-size: 35px;
 }
 .theme-month marquee{
     text-align: center;
     color: white;
     font-family: fantasy;
-    text-shadow: black 4px 4px 4px;
+    text-shadow: black 3px 3px 3px;
     font-size: 18px;
 }
 /* END THE THEME FOR THE YEAR */
