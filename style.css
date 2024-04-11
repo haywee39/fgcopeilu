@@ -224,20 +224,28 @@ nav{
     height: 550px;
 }
 
-
-
 .theme-month{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     width: 45%;
-    height: 550px;
-    text-align: center;
-    /* background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg); */
-    background: url(./images/churchbuilding.jpg);
-    background-size: cover; /* or contain */
-    background-repeat: no-repeat;
-    background-position: center center;
-    
+    height: 550px;   
 }
-.theme-month h1{
+
+
+
+.theme-month img{
+    position: relative;
+    width: 100%;  /*(this is around 700px)*/
+    height: 550px;
+    /* text-align: center; */
+    /* background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg); */
+    /* background: url(./images/churchbuilding.jpg);
+    background-size: cover; /* or contain */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center;  */    
+}
+/* .theme-month h1{
     color: white;
     font-family: 'Splash', cursive;
     font-size: 75px;
@@ -246,18 +254,18 @@ nav{
     text-shadow: black 2px 2px 2px;
     word-spacing: 50px;
     letter-spacing: 5px;
-}
-.theme-month h2{
+} */
+/* .theme-month h2{
     text-shadow: black 3px 3px 3px;
     font-size: 35px;
-}
-.theme-month marquee{
+} */
+/* .theme-month marquee{
     text-align: center;
     color: white;
     font-family: fantasy;
     text-shadow: black 3px 3px 3px;
     font-size: 18px;
-}
+} */
 /* END THE THEME FOR THE YEAR */
 
 
