@@ -169,12 +169,12 @@
 }
 
 
-  /* #gallery {
+  #gallery {
     height: auto; /* Adjust height to fit smaller viewport 
     width: 100vw;
     padding-top: 60px; 
     
-  } */
+  }
 
   /* .gallery-container {
     flex-direction: row; /* Switch back to horizontal layout 
@@ -200,6 +200,24 @@
   /* .lightbox img {
     max-width: 85%; /* Slightly reduce image size in lightbox 
   } */
+
+  /*START style for new gallery arrow buttons  */
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 0;
+    height: auto;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+  }
+  /*END style for new gallery arrow buttons  */
 
 
 /* TESTIMONY SECTION BEGINS HERE  */
