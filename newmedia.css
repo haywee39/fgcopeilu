@@ -81,29 +81,21 @@
 }
 .theme-month{
   display:flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 300px;
-  margin: 0 auto;
 }
-.theme-month h1{
-  font-size:45px;
-  letter-spacing:3px;
+.theme-month img{
+  position: relative;
+  width: 80%;
+  height: 100%;
 }
-.theme-month h2{
-  font-size: 20px;
-}
-.theme-month marquee{
-  font-size: 12px;
-  text-align: center;
-  height: 150px;
-  width: 90%;
-}
+
 /* END THE THEME FOR THE YEAR */
 
 /* MEDIA BEGINS FROM HERE */
+
 #media{
   width: 100vw;
   /* height: 200vh; */
@@ -177,37 +169,37 @@
 }
 
 
-  #gallery {
-    height: auto; /* Adjust height to fit smaller viewport */
+  /* #gallery {
+    height: auto; /* Adjust height to fit smaller viewport 
     width: 100vw;
     padding-top: 60px; 
     
-  }
+  } */
 
-  .gallery-container {
-    flex-direction: row; /* Switch back to horizontal layout */
-    flex-wrap: wrap; /* Allow images to wrap onto multiple rows */
+  /* .gallery-container {
+    flex-direction: row; /* Switch back to horizontal layout 
+    flex-wrap: wrap; /* Allow images to wrap onto multiple rows 
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
-  }
+  } */
 
-  .gallery-item {
+  /* .gallery-item {
     width: 150px; 
     height: 150px;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
-  .gallery-item img {
+  /* .gallery-item img {
     height: 140px;
     width: 140px; 
-  }
+  } */
 
-  .lightbox img {
-    max-width: 85%; /* Slightly reduce image size in lightbox */
-  }
+  /* .lightbox img {
+    max-width: 85%; /* Slightly reduce image size in lightbox 
+  } */
 
 
 /* TESTIMONY SECTION BEGINS HERE  */
