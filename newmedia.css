@@ -169,12 +169,12 @@
 }
 
 
-  #gallery {
-    height: auto; /* Adjust height to fit smaller viewport*/ 
+  /* #gallery {
+    height: auto; /* Adjust height to fit smaller viewport 
     width: 100vw;
     padding-top: 60px; 
     
-  }
+  } */
 
   /* .gallery-container {
     flex-direction: row; /* Switch back to horizontal layout 
@@ -205,7 +205,7 @@
   .carousel-control-prev,
   .carousel-control-next {
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     width: auto;
     padding: 0;
     height: auto;
@@ -216,6 +216,7 @@
     width: 30px;
     height: 30px;
     background-size: contain;
+    background-color: red;
   }
   /*END style for new gallery arrow buttons  */
 
