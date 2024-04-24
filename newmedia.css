@@ -171,7 +171,7 @@
 
   #gallery {
     height: auto; /* Adjust height to fit smaller viewport */
-    width: 100vw;
+    width: 80%;
     padding-top: 60px; 
     
   }

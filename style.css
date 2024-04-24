@@ -465,7 +465,7 @@ nav{
 }
   .gallery-container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 900vw;
     height: 80vh;
     justify-content: center;
