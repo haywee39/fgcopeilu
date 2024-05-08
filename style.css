@@ -446,17 +446,11 @@ nav{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    /* height: 160vh; */
-    height: 100vh;
+    height: 160vh;
     align-items: center;
     justify-content: center;
      place-items: center;
-    /* padding-top: 10px;  */
-    background: linear-gradient(
-        45deg,
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
+    padding-top: 10px; 
   }
 
   .gal{
@@ -465,25 +459,24 @@ nav{
 }
   .gallery-container{
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 900vw;
-    height: 80vh;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    
   }
   
-  /* .gallery-item {
+  .gallery-item {
     width: 270px;
     height:220px;
-  } */
+  }
   
-  /* .gallery-item img {
+  .gallery-item img {
     width: 210px;
     height:210px; 
     cursor: pointer;
-  }  */
-/* .lightbox {
+  } 
+.lightbox {
     display: none;
     position: fixed;
     top: 0;
@@ -494,18 +487,18 @@ nav{
     justify-content: center;
     align-items: center;
     z-index: 1;
-  } */
+  }
   
-  /* .lightbox-content {
+  .lightbox-content {
     text-align: center;
   }
   
   .lightbox img {
     max-width: 90%;
     max-height: 100vh;
-  } */
+  }
   
-  /* .close-btn {
+  .close-btn {
     color: black;
     font-size: 40px;
     font-weight: bold;
@@ -513,9 +506,9 @@ nav{
     top: 20px;
     right: 30px;
     cursor: pointer;
-  } */
+  }
 
-  /* .gallery-container .gallery-item > img{
+  .gallery-container .gallery-item > img{
     scale: .8; opacity: 1;
     animation: fade-in linear;
     animation-timeline: view();
@@ -523,25 +516,8 @@ nav{
 }
 @keyframes fade-in {
     to {scale: 1; opacity: 1;}
-} */
-
-/* new gallery style here  */
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-size: contain;
-  background-color: red;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-}
-
-/* new gallery ends here  */
 /* THE STYLING ENDS FOR CHURCH MEDIA ACTIVITIES CONTAINER  */
 
 
