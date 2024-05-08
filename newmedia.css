@@ -169,57 +169,38 @@
 }
 
 
-  /* #gallery {
-    height: auto; /* Adjust height to fit smaller viewport 
+  #gallery {
+    height: auto;  /*Adjust height to fit smaller viewport */
     width: 100vw;
     padding-top: 60px; 
     
-  } */
-
-  /* .gallery-container {
-    flex-direction: row; /* Switch back to horizontal layout 
-    flex-wrap: wrap; /* Allow images to wrap onto multiple rows 
+  }
+ .gallery-container {
+    flex-direction: row;  /*Switch back to horizontal layout*/ 
+    flex-wrap: wrap; /*Allow images to wrap onto multiple rows*/ 
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
-  } */
+  } 
 
-  /* .gallery-item {
+  .gallery-item {
     width: 150px; 
     height: 150px;
     align-items: center;
     justify-content: center;
-  } */
+  }
 
-  /* .gallery-item img {
+  .gallery-item img {
     height: 140px;
     width: 140px; 
-  } */
+  }
 
-  /* .lightbox img {
+  .lightbox img {
     max-width: 85%; /* Slightly reduce image size in lightbox 
-  } */
-
-  /*START style for new gallery arrow buttons  */
-  .carousel-control-prev,
-  .carousel-control-next {
-    top: 50%;
-    transform: translateY(-30%);
-    width: auto;
-    padding: 0;
-    height: auto;
   }
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-    background-color: red;
-  }
-  /*END style for new gallery arrow buttons  */
 
+ 
 
 /* TESTIMONY SECTION BEGINS HERE  */
 #testimony{
