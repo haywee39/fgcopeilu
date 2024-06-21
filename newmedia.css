@@ -57,7 +57,32 @@
     font-size: 18px;
   }
 
+
+  #play-vid{
+    display: block;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.motion-vid{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;   
+}
+
+.motion{
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
   /*START THE THEME FOR THE YEAR  */
+ 
   #themes{
     display: block;
     background-color: grey;

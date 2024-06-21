@@ -209,13 +209,36 @@ nav{
     text-align: center;  
 }
 /*End Styling for the marquee Heb 13:8 */
-#themes{
+
+#play-vid{
     display: flex;
     flex-direction: row;
     width: 100vw;
     height: 700px;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.motion-vid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 550px;
+}
+
+.motion{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+#themes{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
 }
 
 /*START THE THEME FOR THE YEAR  */
